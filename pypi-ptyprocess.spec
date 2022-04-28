@@ -4,7 +4,7 @@
 #
 Name     : pypi-ptyprocess
 Version  : 0.7.0
-Release  : 52
+Release  : 53
 URL      : https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-0.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-0.7.0.tar.gz
 Summary  : Run a subprocess in a pseudo terminal
@@ -14,9 +14,6 @@ Requires: pypi-ptyprocess-license = %{version}-%{release}
 Requires: pypi-ptyprocess-python = %{version}-%{release}
 Requires: pypi-ptyprocess-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: ptyprocess
-Provides: ptyprocess-python
-Provides: ptyprocess-python3
 BuildRequires : pypi(flit_core)
 
 %description
@@ -59,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641472733
+export SOURCE_DATE_EPOCH=1651168397
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
