@@ -4,7 +4,7 @@
 #
 Name     : pypi-ptyprocess
 Version  : 0.7.0
-Release  : 58
+Release  : 59
 URL      : https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-0.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/20/e5/16ff212c1e452235a90aeb09066144d0c5a6a8c0834397e03f5224495c4e/ptyprocess-0.7.0.tar.gz
 Summary  : Run a subprocess in a pseudo terminal
